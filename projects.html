@@ -24,36 +24,87 @@
             </ul>
         </nav>
         <!-- End Navigation -->
-         <script src="script.js"></script>
+         
         <h1>Projects</h1>
-         <div class = "security">
+
+        <!--Security Projects-->
+        <div class = "security">
             <h2>Security Projects</h2>
 
-            <div class = "project">
-                <h3>CTF Website</h3>
-                <h4>from 2026</h4>
-                <p>Created a CTF website for a cybersecurity competition. The website was designed to host various challenges and provide a platform for participants to submit their solutions. It included features such as user authentication, challenge tracking, and a leaderboard to display the top performers.</p>
+            <div class = "project_card">
+                <h3>Applied Security Labs</h3>
+                <h4>2026 - CodePath CYB101</h4>
+                <p>Hands-on offensive/defensive security work: CVE research 
+                    using Shodan and InternetDB, payload generation with Metasploit
+                    /msfvenom on an Ubuntu VM, password auditing with John the Ripper
+                    against md5crypt hashes, and steganography extraction using 
+                    exiftool and steghide inside Docker.
+                </p>
+                <a href = "#" target="_blank">↗ GitHub</a>
+                <div class="tags">
+                    <span>Shodan</span>
+                    <span>Metasploit</span>
+                    <span>John the Ripper</span>
+                    <span>Docker</span>
+                </div>
+            </div>
+
+            <div class = "project_card">
+                <h3>Phishing Threat Briefing</h3>
+                <h4>2026 - CodePath CYB101</h4>
+                <p>A cybersecurity-themed presentation breaking down phishing
+                    tactics, real-world examples, and defense strategies.</p>
+                <a href="#" target="_blank">↗ View Deck</a>
+                <div class="tags">
+                    <span>Security Awareness</span>
+                    <span>Presentation Design</span>
+                </div>
             </div>
         </div>
 
+        <!--Web Development Projects-->
          <div class = "web_dev">
             <h2>Web Development Projects</h2>
 
-            <div class = "project">
-                <h3>Portfolio Website</h3>
-                <h4>from 2026</h4>
-                <p>Developed a personal portfolio website to showcase my skills, projects, and experience. The website was built using HTML, CSS, and JavaScript, and featured a responsive design to ensure optimal viewing on various devices. It included sections for an about me page, resume, project gallery, and contact form.</p>
+            <div class = "project_card">
+                <h3>Cyber CTF - Capture the Flag Event Site</h3>
+                <h4>2026 - CodePath WEB110</h4>
+                <p>A noir-themed website built for a Cyber Capture the Flag event. Features a dark mode
+                    toggle, validated RSVP form, scroll-reveal animations, and a sliding participant list - 
+                    built with CSS variables and vanilla JavaScript.
+                </p>
+                <a href = "#" target="_blank">↗ Live Site</a>
+                <a href = "#" target="_blank">↗ GitHub</a>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                </div>
             </div>
          </div>
 
+         <!--Additional Projects-->
          <div class = "additional">
             <h2>Additional Projects</h2>
 
-            <div class = "project">
-                <h3>Weather App</h3>
-                <h4>from 2026</h4>
-                <p>Created a weather application that provides real-time weather information for any location. The app was built using JavaScript and integrated with a weather API to fetch data such as temperature, humidity, and weather conditions. It featured a user-friendly interface and allowed users to search for weather updates by city or zip code.</p>
+            <div class = "project_card">
+                <h3>End-to-End Test Suite</h3>
+                <h4>2026</h4>
+                <p>Automated browser tests written in 
+                    JavaScript with Playwright, covering search 
+                    functionality and result verification - built
+                    from scratch, applying a navigate → interact → assert pattern
+                </p>
+                <a href = "#" target="_blank">↗ GitHub</a>
+                <div class="tags">
+                    <span>JavaScript</span>
+                    <span>Playwright</span>
+                    <span>Chrome DevTools</span>
+                </div>
             </div>
          </div>
+         
+        <script src="script.js"></script>
     </body>
 </html>
