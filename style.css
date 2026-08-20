@@ -30,6 +30,20 @@ body {
 
 }
 
+.project_card {
+  background-color: var(--divider-color);
+  border: 1px solid var(--divider-color);
+  border-radius: 6px;
+  padding: 20px;
+  flex: 1 1 300px;
+}
+
+.security, .web_dev, .additional {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 /***
  * Color scheme (dark mode and default light mode)
  ***/
