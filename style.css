@@ -31,17 +31,48 @@ body {
 }
 
 .project_card {
-  background-color: var(--divider-color);
-  border: 1px solid var(--divider-color);
+  background-color: var(--bg-color);
+  border: 1px solid var(--accent-secondary);
   border-radius: 6px;
   padding: 20px;
   flex: 1 1 300px;
+}
+
+.category_tag {
+  display: inline-block;
+  background-color: var(--accent-primary);
+  color: var(--bg-color);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform:uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
 }
 
 .security, .web_dev, .additional {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.tags{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.tags span {
+  background-color: var(--accent-secondary);
+  color: var(--bg-color);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /***
