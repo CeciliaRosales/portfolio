@@ -75,6 +75,31 @@ body {
   font-weight: bold;
 }
 
+.linkedin_card {
+  display: block;
+  border: 1px solid var(--divider-color);
+  border-radius: 6px;
+  padding: 20px;
+  text-decoration: none;
+  color: var(--primary-text);
+  max-width: 320px;
+  transition: border-color 0.2s;
+}
+
+.linkedin_card:hover {
+  border-color: var(--accent-primary);
+}
+
+.contact_link {
+  color: var(--primary-text);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.contact_link:hover {
+  color: var(--accent-primary);
+}
 /***
  * Color scheme (dark mode and default light mode)
  ***/
