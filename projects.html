@@ -9,9 +9,6 @@
     <body>
         <!-- Navigation -->
         <nav class="navbar">
-            <div class="navbar_logo">
-                Cecilia's portfolio
-            </div>
 
             <ul class="navbar_links">
                 <li><a href="index.html">Home</a></li>
@@ -23,88 +20,88 @@
             </ul>
         </nav>
         <!-- End Navigation -->
-         
+         <main class="page_content">
         <h1>Projects</h1>
-
+        <div class="project_grid">
         <!--Security Projects-->
-        <div class = "security">
+            <div class = "security">
+                <div class = "project_card">
+                    <span class="category_tag">Security Project</span>
+                    <h3>Applied Security Labs</h3>
+                    <h4>2026 - CodePath CYB101</h4>
+                    <p>Hands-on offensive/defensive security work: CVE research 
+                        using Shodan and InternetDB, payload generation with Metasploit
+                        /msfvenom on an Ubuntu VM, password auditing with John the Ripper
+                        against md5crypt hashes, and steganography extraction using 
+                        exiftool and steghide inside Docker.
+                    </p>
+                    <a href = "#" target="_blank">↗ GitHub</a>
+                    <div class="tags">
+                        <span>Shodan</span>
+                        <span>Metasploit</span>
+                        <span>John the Ripper</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
 
-            <div class = "project_card">
-                <span class="category_tag">Security Project</span>
-                <h3>Applied Security Labs</h3>
-                <h4>2026 - CodePath CYB101</h4>
-                <p>Hands-on offensive/defensive security work: CVE research 
-                    using Shodan and InternetDB, payload generation with Metasploit
-                    /msfvenom on an Ubuntu VM, password auditing with John the Ripper
-                    against md5crypt hashes, and steganography extraction using 
-                    exiftool and steghide inside Docker.
-                </p>
-                <a href = "#" target="_blank">↗ GitHub</a>
-                <div class="tags">
-                    <span>Shodan</span>
-                    <span>Metasploit</span>
-                    <span>John the Ripper</span>
-                    <span>Docker</span>
+                <div class = "project_card">
+                    <span class="category_tag">Security Project</span>
+                    <h3>Phishing Threat Briefing</h3>
+                    <h4>2026 - CodePath CYB101</h4>
+                    <p>A cybersecurity-themed presentation breaking down phishing
+                        tactics, real-world examples, and defense strategies.</p>
+                    <a href="#" target="_blank">↗ View Deck</a>
+                    <div class="tags">
+                        <span>Security Awareness</span>
+                        <span>Presentation Design</span>
+                    </div>
                 </div>
             </div>
-
-            <div class = "project_card">
-                <span class="category_tag">Security Project</span>
-                <h3>Phishing Threat Briefing</h3>
-                <h4>2026 - CodePath CYB101</h4>
-                <p>A cybersecurity-themed presentation breaking down phishing
-                    tactics, real-world examples, and defense strategies.</p>
-                <a href="#" target="_blank">↗ View Deck</a>
-                <div class="tags">
-                    <span>Security Awareness</span>
-                    <span>Presentation Design</span>
-                </div>
-            </div>
-        </div>
         
 
         <!--Web Development Projects-->
-         <div class = "web_dev">
-            <div class = "project_card">
-                <span class="category_tag">Web Development</span>
-                <h3>Cyber CTF - Capture the Flag Event Site</h3>
-                <h4>2026 - CodePath WEB110</h4>
-                <p>A noir-themed website built for a Cyber Capture the Flag event. Features a dark mode
-                    toggle, validated RSVP form, scroll-reveal animations, and a sliding participant list - 
-                    built with CSS variables and vanilla JavaScript.
-                </p>
-                <a href = "#" target="_blank">↗ Live Site</a>
-                <a href = "#" target="_blank">↗ GitHub</a>
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>Responsive Design</span>
+            <div class = "web_dev">
+                <div class = "project_card">
+                    <span class="category_tag">Web Development</span>
+                    <h3>Cyber CTF - Capture the Flag Event Site</h3>
+                    <h4>2026 - CodePath WEB110</h4>
+                    <p>A noir-themed website built for a Cyber Capture the Flag event. Features a dark mode
+                        toggle, validated RSVP form, scroll-reveal animations, and a sliding participant list - 
+                        built with CSS variables and vanilla JavaScript.
+                    </p>
+                    <a href = "#" target="_blank">↗ Live Site</a>
+                    <a href = "#" target="_blank">↗ GitHub</a>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Responsive Design</span>
+                    </div>
                 </div>
             </div>
-         </div>
 
          <!--Additional Projects-->
-         <div class = "additional">
-
-            <div class = "project_card">
-                <span class="category_tag">Miscellaneous</span>
-                <h3>End-to-End Test Suite</h3>
-                <h4>2026</h4>
-                <p>Automated browser tests written in 
-                    JavaScript with Playwright, covering search 
-                    functionality and result verification - built
-                    from scratch, applying a navigate → interact → assert pattern
-                </p>
-                <a href = "#" target="_blank">↗ GitHub</a>
-                <div class="tags">
-                    <span>JavaScript</span>
-                    <span>Playwright</span>
-                    <span>Chrome DevTools</span>
+            <div class = "additional">
+                <div class = "project_card">
+                    <span class="category_tag">Miscellaneous</span>
+                    <h3>End-to-End Test Suite</h3>
+                    <h4>2026</h4>
+                    <p>Automated browser tests written in 
+                        JavaScript with Playwright, covering search 
+                        functionality and result verification - built
+                        from scratch, applying a navigate → interact → assert pattern
+                    </p>
+                    <a href = "#" target="_blank">↗ GitHub</a>
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>Playwright</span>
+                        <span>Chrome DevTools</span>
+                    </div>
                 </div>
+            
             </div>
          </div>
-
+        </main>
         <script src="script.js"></script>
     </body>
 </html>
